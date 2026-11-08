@@ -174,12 +174,12 @@ LUFFY/
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/llm_engine_sp.py:143** - (woosuk): Print more configs in debug mode.
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/llm_engine_sp.py:160** - (shengguangming): maybe we can choose init here or from arguments
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/llm_engine_sp.py:262** - (sgm): add for verl but we may not tokenizer in Rollout
-- [ ] **luffy/verl/verl/third_party/vllm/v_0_5_4/llm_engine_sp.py:271** - check whether we should rebuild the CUDAGraph every iter when offload/load KVCache
+- [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/llm_engine_sp.py:271** - check whether we should rebuild the CUDAGraph every iter when offload/load KVCache
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/megatron_weight_loaders.py:67** - check megatron
-- [ ] **luffy/verl/verl/third_party/vllm/v_0_5_4/megatron_weight_loaders.py:254** - need to implement a general way to deal with prefix
-- [ ] **luffy/verl/verl/third_party/vllm/v_0_5_4/megatron_weight_loaders.py:272** - (shengguangming): latest commit in vllm fix awq for this function and add load_weights
+- [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/megatron_weight_loaders.py:254** - need to implement a general way to deal with prefix
+- [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/megatron_weight_loaders.py:272** - (shengguangming): latest commit in vllm fix awq for this function and add load_weights
 - [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/model_loader.py:152** - (sgm): This is a hack, we need to register the load_weight() func for each model in vllm
-- [ ] **luffy/verl/verl/third_party/vllm/v_0_5_4/model_loader.py:239** - (sgm): This is a hack, we need to register the load_weight() func for each model in vllm
+- [ ] **luffy/verl/verl/third_party/vllm/vllm_v_0_5_4/model_loader.py:239** - (sgm): This is a hack, we need to register the load_weight() func for each model in vllm
 - [ ] **luffy/verl/verl/third_party/vllm/v_0_5_4/parallel_state.py:94** - (sgm): deviate from the v0.5.4, not pp now
 - [ ] **luffy/verl/verl/third_party/vllm/v_0_5_4/parallel_state.py:138** - check why True is not work in Ray trainer
 - [ ] **luffy/verl/verl/third_party/vllm/v_0_5_4/parallel_state.py:165** - check why True is not work in Ray trainer
